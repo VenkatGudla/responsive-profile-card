@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  
+    line-height: 1.6;
+    background: #f3f2ef;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: white;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* CIRCLE */
+.circle {
+  width: 150px;
+  height: 150px;
+  background: #0a66c2;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+
+
+/* HERO SECTION */
+.hero {
+  padding: 50px 20px;
+  margin-bottom: 1px;
+  background-color: #Fff;
+}
+
+.hero-text {
+   flex: 1;
+   padding: 20px;
+    }
+
+ .hero-text h1 {
+   font-size: 40px;
+   line-height: normal;
+  }
+
+  .hero-text p {
+   margin: 15px 0;
+   color: #555;
+  }
+  
+  .hero-img {
+   flex: 1;
+   text-align: center;
+  }
+
+  .hero-img img {
+    max-width: 250px;
+  }
+  
+.btn {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+
+/* Features */
+    .features {
+      padding: 50px 20px;
+      background: #f4f4f4;
+      text-align: center;
+    }
+
+    .feature-box {
+      margin: 15px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      display: inline-block;
+      width: 250px;
+    }
+    
+/* CTA */
+    .cta {
+      padding: 60px 20px;
+      text-align: center;
+      background: #4CAF50;
+      color: white;
+    }
+
+
+/* TEXT */
+.text h1 {
+  font-size: 32px;
+}
+
+.text h2 {
+  color: #0a66c2;
+  margin: 10px 0;
+}
+
+.text p {
+  margin: 15px 0;
+  line-height: 1.5;
+}
+
+/* BUTTONS */
+.buttons a {
+  text-decoration: none;
+  background: #0a66c2;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.image h4 {
+  font-weight: normal;
+  padding: 100px;
+  background-color: #0a66c2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+/* SKILLS */
+.skills {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #FFF;
+}
+.skills h2{
+  margin-bottom: 15px;
+}
+.skill-list span {
+  background: #ddd;
+  padding: 8px 15px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+header {
+  background: #0a66c2;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+section {
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  gap: 10px;
+}
+
+.project {
+  background: #eee;
+  padding: 20px;
+  flex: 1;
+}
+
+
+/* Footer */
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .navbar, .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+  
+   .hero-text h1 {
+        font-size: 28px;
+      }
+
+  .image {
+    margin-top: 20px;
+  }
+  
+  .navbar h2{
+    margin-bottom: 10px;
+  }
+   .projects {
+    flex-direction: column;
+  }
+}
+
+/* Desktop only */
+@media (min-width: 1200px) {
+  .card {
+    min-height: 150px; /* set your desired height */
+  }
+  .feature-box{
+    width: 300px;
+  }
+}
